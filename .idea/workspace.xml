@@ -44,6 +44,13 @@
       <recent name="D:\Repositorios\project-crud\core\src\main\java" />
     </key>
   </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
   <component name="RunManager" selected="Spring Boot.ProjectApplication">
     <configuration name="DiscoveryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="discovery" />
@@ -59,13 +66,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetwayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="getway" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fourblue.getway.GetwayApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ProjectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="project" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.fourblue.project.ProjectApplication" />
@@ -73,6 +73,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.DiscoveryApplication" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.ProjectApplication" />
+    </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -86,7 +113,7 @@
       <updated>1592940847821</updated>
       <workItem from="1592940849200" duration="326000" />
       <workItem from="1592941224649" duration="185000" />
-      <workItem from="1592941425423" duration="8041000" />
+      <workItem from="1592941425423" duration="9608000" />
     </task>
     <servers />
   </component>
@@ -94,6 +121,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592952457114">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1592952457114" />
     <state x="373" y="69" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog" timestamp="1592941299830">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -110,38 +141,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="676" y="289" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1592942294409" />
-    <state width="1323" height="214" key="GridCell.Tab.0.bottom" timestamp="1592951710018">
+    <state width="905" height="285" key="GridCell.Tab.0.bottom" timestamp="1592953317425">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592951710018" />
-    <state width="1323" height="214" key="GridCell.Tab.0.center" timestamp="1592951710015">
+    <state width="905" height="285" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592953317425" />
+    <state width="905" height="285" key="GridCell.Tab.0.center" timestamp="1592953317425">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592951710015" />
-    <state width="1323" height="214" key="GridCell.Tab.0.left" timestamp="1592951710015">
+    <state width="905" height="285" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592953317425" />
+    <state width="905" height="285" key="GridCell.Tab.0.left" timestamp="1592953317425">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592951710015" />
-    <state width="1323" height="214" key="GridCell.Tab.0.right" timestamp="1592951710018">
+    <state width="905" height="285" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592953317425" />
+    <state width="905" height="285" key="GridCell.Tab.0.right" timestamp="1592953317425">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592951710018" />
-    <state width="1323" height="214" key="GridCell.Tab.1.bottom" timestamp="1592951710019">
+    <state width="905" height="285" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592953317425" />
+    <state width="905" height="285" key="GridCell.Tab.1.bottom" timestamp="1592953317425">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592951710019" />
-    <state width="1323" height="214" key="GridCell.Tab.1.center" timestamp="1592951710018">
+    <state width="905" height="285" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592953317425" />
+    <state width="905" height="285" key="GridCell.Tab.1.center" timestamp="1592953317425">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1592951710018" />
-    <state width="1323" height="214" key="GridCell.Tab.1.left" timestamp="1592951710018">
+    <state width="905" height="285" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1592953317425" />
+    <state width="905" height="285" key="GridCell.Tab.1.left" timestamp="1592953317425">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1592951710018" />
-    <state width="1323" height="214" key="GridCell.Tab.1.right" timestamp="1592951710019">
+    <state width="905" height="285" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1592953317425" />
+    <state width="905" height="285" key="GridCell.Tab.1.right" timestamp="1592953317425">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1592951710019" />
+    <state width="905" height="285" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1592953317425" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1592944416217">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

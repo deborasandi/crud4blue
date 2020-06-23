@@ -19,7 +19,7 @@ eureka:
 
 spring:
   application:
-    name: course
+    name: project
   jpa:
     show-sql: false
     hibernate:
