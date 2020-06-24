@@ -3,7 +3,6 @@ package com.fourblue.project.endpoint.service;
 import com.fourblue.core.model.Person;
 import com.fourblue.core.repository.PersonRepository;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
