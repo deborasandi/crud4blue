@@ -24,12 +24,23 @@ public class PersonController {
     }
 
     @GetMapping(path = {"/{id}"})
-    public ResponseEntity findById(@PathVariable long id){
+    public ResponseEntity<Person> findById(@PathVariable long id){
         return personService.findById(id);
     }
 
     @PostMapping
     public Person create(@RequestBody Person person){
         return personService.create(person);
+    }
+
+    @PutMapping(value="/{id}")
+    public ResponseEntity<Person> update(@PathVariable("id") long id,
+                                 @RequestBody Person person) {
+        return personService.update(id, person);
+    }
+
+    @DeleteMapping(path ={"/{id}"})
+    public ResponseEntity<Object> delete(@PathVariable long id) {
+        return personService.delete(id);
     }
 }

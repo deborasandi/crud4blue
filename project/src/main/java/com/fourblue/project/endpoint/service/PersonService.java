@@ -5,7 +5,6 @@ import com.fourblue.core.repository.PersonRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.RequestBody;
 
 import java.util.List;
 
@@ -30,5 +29,27 @@ public class PersonService {
 
     public Person create(Person person){
         return personRepository.save(person);
+    }
+
+    public ResponseEntity<Person> update(Long id, Person person){
+        return personRepository.findById(id)
+                .map(record -> {
+                    record.setName(person.getName());
+                    record.setAddress(person.getAddress());
+                    record.setBirthDate(person.getBirthDate());
+                    record.setAge(person.getAge());
+                    record.setGenre(person.getGenre());
+
+                    Person updated = personRepository.save(record);
+                    return ResponseEntity.ok().body(updated);
+                }).orElse(ResponseEntity.notFound().build());
+    }
+
+    public ResponseEntity<Object> delete(Long id){
+        return personRepository.findById(id)
+                .map(record -> {
+                    personRepository.deleteById(id);
+                    return ResponseEntity.ok().build();
+                }).orElse(ResponseEntity.notFound().build());
     }
 }
